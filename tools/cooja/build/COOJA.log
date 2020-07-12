@@ -1,0 +1,569 @@
+[08:44:53 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux_64.config
+[08:44:53 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[08:45:07 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[08:45:07 - Thread-0] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1b4): relocation truncated to fit: R_MSP430_16 against symbol `nullrdc_driver' defined in .rodata section in contiki-sky.a(nullrdc.o)
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1b8): relocation truncated to fit: R_MSP430_16 against symbol `csma_driver' defined in .rodata section in contiki-sky.a(csma.o)
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1bc): relocation truncated to fit: R_MSP430_16 against symbol `nullsec_driver' defined in .rodata section in contiki-sky.a(nullsec.o)
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1c0): relocation truncated to fit: R_MSP430_16_BYTE against `no symbol'
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:317:(.init9+0x1d6): additional relocation overflows omitted from the output
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> collect2: error: ld returned 1 exit status
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:280: recipe for target 'udp-server.sky' failed
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-server.sky] Error 1
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> rm udp-server.co obj_sky/contiki-sky-main.o
+[08:45:14 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[08:45:14 - Thread-0] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[08:45:20 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[08:45:20 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/rpl-udp-controller-data/udp-server.sky with /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky (default: /home/user/contiki/), but could not find it. This does not have to be an error, as the file might be created later.
+[08:45:20 - Thread-0] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1b4): relocation truncated to fit: R_MSP430_16 against symbol `nullrdc_driver' defined in .rodata section in contiki-sky.a(nullrdc.o)
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1b8): relocation truncated to fit: R_MSP430_16 against symbol `csma_driver' defined in .rodata section in contiki-sky.a(csma.o)
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1bc): relocation truncated to fit: R_MSP430_16 against symbol `nullsec_driver' defined in .rodata section in contiki-sky.a(nullsec.o)
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:307:(.init9+0x1c0): relocation truncated to fit: R_MSP430_16_BYTE against `no symbol'
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> /home/user/contiki/examples/ipv6/rpl-udp-controller-data/../../../platform/sky/./contiki-sky-main.c:317:(.init9+0x1d6): additional relocation overflows omitted from the output
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> collect2: error: ld returned 1 exit status
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:280: recipe for target 'udp-server.sky' failed
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-server.sky] Error 1
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> rm udp-server.co obj_sky/contiki-sky-main.o
+[08:45:20 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[08:45:20 - Thread-0] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[08:46:07 - Thread-3] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[08:46:09 - AWT-EventQueue-0] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[08:46:10 - Thread-3] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/rpl-udp-controller-data/udp-server.sky with /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky (default: /home/user/contiki/), but could not find it. This does not have to be an error, as the file might be created later.
+[08:46:12 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[08:48:14 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make clean TARGET=sky 
+[08:48:15 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[08:48:27 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[08:48:31 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[08:48:32 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[08:48:33 - Thread-3] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[08:48:34 - Thread-3] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[08:48:34 - Thread-3] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[08:48:34 - Thread-3] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[08:48:34 - Thread-3] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[08:48:34 - Thread-3] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[09:00:09 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[09:00:12 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[09:00:21 - Thread-9] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572156021472
+[09:04:52 - Thread-9] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572156292433	Duration: 270961 ms	Simulated time 2653214 ms	Ratio 9.791830588791049
+[09:51:26 - Thread-7] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[09:51:26 - Thread-10] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[09:51:26 - Thread-10] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[09:51:27 - Thread-10] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[09:51:27 - Thread-10] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[09:51:27 - Thread-10] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:28 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[09:51:29 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:29 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:29 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:29 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:51:29 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[09:51:29 - Thread-10] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[09:51:29 - Thread-10] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[09:51:29 - Thread-10] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[09:51:30 - Thread-10] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[09:51:30 - Thread-10] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[09:52:16 - Thread-11] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[09:52:17 - Thread-12] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[09:52:17 - Thread-12] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[09:52:17 - Thread-12] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[09:52:17 - Thread-12] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[09:52:17 - Thread-12] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:18 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:19 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:19 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[09:52:19 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[09:52:19 - Thread-12] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[09:52:19 - Thread-12] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[09:52:19 - Thread-12] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[09:52:19 - Thread-12] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[09:52:19 - Thread-12] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[09:52:21 - Thread-14] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572159141044
+[10:05:11 - Thread-13] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:05:11 - Thread-14] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572159911652	Duration: 770608 ms	Simulated time 7368124 ms	Ratio 9.56144239353861
+[10:05:12 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:05:12 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:05:12 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:142:35: note: each undeclared identifier is reported only once for each function it appears in
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:222:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:223:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:213:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: At top level:
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:140:15: warning: ‘rand_double’ defined but not used [-Wunused-function]
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:05:12 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:05:12 - Thread-15] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:05:39 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:05:39 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:05:39 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:142:35: note: each undeclared identifier is reported only once for each function it appears in
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:222:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:223:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:213:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: At top level:
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:140:15: warning: ‘rand_double’ defined but not used [-Wunused-function]
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:05:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:05:39 - Thread-15] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:06:20 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:06:20 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:06:20 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:142:5: warning: implicit declaration of function ‘rand’ [-Wimplicit-function-declaration]
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:222:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:223:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:213:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: At top level:
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:140:15: warning: ‘random_temp’ defined but not used [-Wunused-function]
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:06:20 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:06:20 - Thread-15] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:07:39 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:07:39 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:07:39 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:142:5: warning: implicit declaration of function ‘rand’ [-Wimplicit-function-declaration]
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:222:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:223:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:213:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: At top level:
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:140:15: warning: ‘random_temp’ defined but not used [-Wunused-function]
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:07:39 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:07:39 - Thread-15] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:07:57 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:07:57 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:07:57 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:142:5: warning: implicit declaration of function ‘rand’ [-Wimplicit-function-declaration]
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:222:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:223:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:213:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: At top level:
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:140:15: warning: ‘random_temp’ defined but not used [-Wunused-function]
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:07:58 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:07:58 - Thread-15] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:08:11 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:08:11 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:08:11 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:130:17: note: previous implicit declaration of ‘random_temp’ was here
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:222:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:223:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:213:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: At top level:
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:140:15: warning: ‘random_temp’ defined but not used [-Wunused-function]
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:08:11 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:08:11 - Thread-15] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:08:22 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:08:22 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:08:22 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: At top level:
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:140:8: error: conflicting types for ‘random_temp’
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:130:17: note: previous implicit declaration of ‘random_temp’ was here
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:222:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:223:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:213:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:08:22 - Thread-15] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:08:22 - Thread-15] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:09:16 - Thread-15] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:09:16 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:09:16 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:09:17 - Thread-15] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:09:17 - Thread-15] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:09:17 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:09:17 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:09:18 - Thread-15] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:09:18 - Thread-15] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:09:18 - Thread-15] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:09:18 - Thread-15] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:09:18 - Thread-15] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:09:19 - Thread-15] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:09:19 - Thread-24] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572160159101
+[10:09:43 - Thread-23] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:09:43 - Thread-24] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572160183813	Duration: 24712 ms	Simulated time 221651 ms	Ratio 8.969367109096796
+[10:09:44 - Thread-25] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:09:44 - Thread-25] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:09:44 - Thread-25] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:130:3: warning: implicit declaration of function ‘rand’ [-Wimplicit-function-declaration]
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:130:32: error: invalid operands to binary % (have ‘double’ and ‘int’)
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:130:10: warning: unused variable ‘temp’ [-Wunused-variable]
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘print_all_neighbors’:
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:217:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:218:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘uint8_t *’ [-Wformat]
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:208:17: warning: unused variable ‘least_expiring_nbr’ [-Wunused-variable]
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> ../../../Makefile.include:260: recipe for target 'udp-client.co' failed
+[10:09:44 - Thread-25] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[10:09:44 - Thread-25] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[10:10:02 - Thread-25] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:10:02 - Thread-25] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:10:03 - Thread-25] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:10:03 - Thread-25] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:10:03 - Thread-25] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:10:04 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:10:05 - Thread-25] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:10:05 - Thread-25] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:10:05 - Thread-25] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:10:05 - Thread-25] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:10:05 - Thread-25] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:10:05 - Thread-28] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572160205507
+[10:10:49 - Thread-28] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572160249283	Duration: 43776 ms	Simulated time 383086 ms	Ratio 8.751050804093568
+[10:11:04 - Thread-27] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:11:04 - Thread-29] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:11:04 - Thread-29] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:11:04 - Thread-29] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:11:05 - Thread-29] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:11:05 - Thread-29] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:11:05 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:11:05 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:05 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:05 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:05 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:05 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:05 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:11:06 - Thread-29] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:11:06 - Thread-29] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:11:06 - Thread-29] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:11:06 - Thread-29] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:11:06 - Thread-29] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:11:06 - Thread-29] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:11:08 - Thread-31] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572160268229
+[10:13:04 - Thread-31] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572160384897	Duration: 116668 ms	Simulated time 1052961 ms	Ratio 9.025276853978811
+[10:17:47 - Thread-30] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:17:47 - Thread-32] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:17:47 - Thread-32] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:17:48 - Thread-32] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:17:48 - Thread-32] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:17:48 - Thread-32] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:17:48 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:17:49 - Thread-32] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:17:50 - Thread-32] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:17:50 - Thread-32] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:17:50 - Thread-32] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:17:50 - Thread-32] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:17:50 - Thread-32] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:17:53 - Thread-34] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572160673580
+[10:23:16 - Thread-33] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:23:16 - Thread-34] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572160996875	Duration: 323295 ms	Simulated time 1811462 ms	Ratio 5.603124081721028
+[10:23:17 - Thread-35] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:23:17 - Thread-35] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:23:17 - Thread-35] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:23:18 - Thread-35] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:23:18 - Thread-35] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:23:19 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:23:19 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:20 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:23:21 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:21 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:21 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:21 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:23:21 - Thread-35] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:23:22 - Thread-35] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:23:22 - Thread-35] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:23:22 - Thread-35] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:23:22 - Thread-35] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:23:22 - Thread-35] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:23:22 - Thread-37] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572161002443
+[10:29:30 - Thread-37] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572161370155	Duration: 367712 ms	Simulated time 2000562 ms	Ratio 5.440567618135932
+[10:29:41 - Thread-36] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:29:42 - Thread-38] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:29:42 - Thread-38] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:29:42 - Thread-38] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:29:42 - Thread-38] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:29:42 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:29:43 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:43 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:43 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:43 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:44 - Thread-38] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:29:45 - Thread-38] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:29:45 - Thread-38] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:29:45 - Thread-38] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:29:45 - Thread-38] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:29:45 - Thread-38] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:29:47 - Thread-40] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572161387753
+[10:30:15 - Thread-40] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572161415140	Duration: 27387 ms	Simulated time 229796 ms	Ratio 8.390696315770256
+[10:30:21 - AWT-EventQueue-0] [Cooja.java:2183] [FATAL] - Exception when creating mote type
+org.contikios.cooja.MoteType$MoteTypeCreationException: No identifier
+	at org.contikios.cooja.mspmote.SkyMoteType.configureAndInit(SkyMoteType.java:135)
+	at org.contikios.cooja.Cooja.doCreateMoteType(Cooja.java:2178)
+	at org.contikios.cooja.Cooja.doCreateMoteType(Cooja.java:2157)
+	at org.contikios.cooja.Cooja$GUIEventHandler.actionPerformed(Cooja.java:2938)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[10:30:39 - Thread-39] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:30:40 - Thread-43] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:30:42 - AWT-EventQueue-0] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:30:46 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:30:52 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:30:57 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:30:59 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:30:59 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:30:59 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:00 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:01 - Thread-43] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:31:01 - Thread-43] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:31:01 - Thread-43] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:31:01 - Thread-43] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:31:01 - Thread-43] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:31:01 - Thread-43] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:32:02 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make malicious-sensor.sky TARGET=sky 
+[10:32:53 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:33:07 - AWT-EventQueue-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:33:29 - AWT-EventQueue-0] [Cooja.java:3491] [INFO] - Saved to file: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/1s-14s-1m-1mal.csc
+[10:33:45 - AWT-EventQueue-0] [Cooja.java:3491] [INFO] - Saved to file: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/1s-14s-1m-1mal.csc
+[10:34:04 - AWT-EventQueue-0] [Cooja.java:3491] [INFO] - Saved to file: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/1s-14s-1m-1mal.csc
+[10:34:05 - Thread-50] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572161645608
+[10:35:10 - Thread-47] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:35:10 - Thread-50] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572161710169	Duration: 64562 ms	Simulated time 378214 ms	Ratio 5.858151854031783
+[10:35:11 - Thread-51] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:35:11 - Thread-51] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:35:11 - Thread-51] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:35:11 - Thread-51] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:35:12 - Thread-51] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:35:12 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:35:13 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:13 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:35:14 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:15 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:15 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:15 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:35:15 - Thread-51] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:35:16 - Thread-51] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:35:16 - Thread-51] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:35:16 - Thread-51] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:35:16 - Thread-51] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:35:16 - Thread-51] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:35:16 - Thread-53] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572161716704
+[10:41:45 - Thread-52] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:41:45 - Thread-53] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572162105165	Duration: 388461 ms	Simulated time 1954757 ms	Ratio 5.032054697897601
+[10:41:46 - Thread-54] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:41:46 - Thread-54] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:41:46 - Thread-54] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:41:47 - Thread-54] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:41:47 - Thread-54] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:41:48 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:41:48 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:49 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:41:50 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:50 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:50 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:50 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:41:50 - Thread-54] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:41:51 - Thread-54] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:41:51 - Thread-54] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:41:51 - Thread-54] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:41:51 - Thread-54] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:41:51 - Thread-54] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:41:51 - Thread-56] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572162111887
+[10:43:27 - Thread-57] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1 with /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1 (default: /home/user/contiki/), but could not find it. This does not have to be an error, as the file might be created later.
+[10:43:27 - Thread-57] [Cooja.java:4140] [WARN] - Path is not portable: '/home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:43:28 - Thread-55] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[10:43:28 - Thread-56] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572162208146	Duration: 96259 ms	Simulated time 484460 ms	Ratio 5.0328800423856475
+[10:43:29 - Thread-57] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[10:43:29 - Thread-57] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[10:43:29 - Thread-57] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[10:43:29 - Thread-57] [CompileContiki.java:140] [INFO] - > make udp-client-mobile.sky TARGET=sky 
+[10:43:30 - Thread-57] [CompileContiki.java:140] [INFO] - > make malicious-sensor.z1 TARGET=z1 
+[10:43:42 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-server.sky
+[10:43:42 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:43 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client-mobile.sky
+[10:43:44 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:44 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:44 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:44 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/ipv6/rpl-udp-controller-data/udp-client.sky
+[10:43:44 - Thread-57] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-UDP-intercept-ONLY/examples/ipv6/coral-testing-others/malicious-sensor.z1
+[10:43:45 - Thread-57] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[10:43:45 - Thread-57] [Mobility.java:83] [INFO] - Mobility plugin started at (ms): 0
+[10:43:45 - Thread-57] [Mobility.java:115] [INFO] - Parsing position file: /home/user/contiki/tools/cooja/apps/mobility/1node-2hrs-random-waypoint.dat
+[10:43:45 - Thread-57] [Mobility.java:140] [INFO] - Loaded 36000 positions
+[10:43:45 - Thread-57] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[10:43:46 - Thread-59] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1572162226285
+[10:44:42 - Thread-59] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1572162282718	Duration: 56433 ms	Simulated time 248327 ms	Ratio 4.400386298796803
