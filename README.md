@@ -1,6 +1,8 @@
 This modified contiki version is part of the ![ASSET controller](https://github.com/SWNRG/ASSET) project.
 
-Other versions of contiki-mailicous code
+Other versions of contiki-mailicous code for the same project above, can be found:
+![https://github.com/SWNRG/contiki-malicious-controller-aware](https://github.com/SWNRG/contiki-malicious-controller-aware)
+![https://github.com/SWNRG/contiki-malicious-controller-aware-version-attack](https://github.com/SWNRG/contiki-malicious-controller-aware-version-attack)
 
 
 Changes in this contiki 3.0 for the malicious node:
@@ -14,7 +16,7 @@ core/net/rpl/rpl-icmp6.c
 l514: poisoning the advertised rank of the malicious node.
 You can choose "how much" to poison it.
 
-/* ******************* POISONING DIOs **************************** */
+###/* ******************* POISONING DIOs **************************** */
   /* George Poisoining the DIO sent to neighbors:
    * The rank of the malicious node is fakely advertised as lower.
    * it can be three different levels: light, adequate, severe.
