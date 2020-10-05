@@ -1,3 +1,8 @@
+This modified contiki version is part of the [![ASSET controller](https://github.com/SWNRG/ASSET) project.
+
+Other versions of contiki-mailicous code
+
+
 Changes in this contiki 3.0 for the malicious node:
 General rule, all changes have a comment starting with // George
 (Dont confuse it with George Oikonomou...)
