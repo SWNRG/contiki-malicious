@@ -1,4 +1,4 @@
-This modified contiki version is part of the [![ASSET controller](https://github.com/SWNRG/ASSET) project.
+This modified contiki version is part of the ![ASSET controller](https://github.com/SWNRG/ASSET) project.
 
 Other versions of contiki-mailicous code
 
